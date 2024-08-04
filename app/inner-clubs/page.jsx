@@ -4,7 +4,7 @@ const InnerClubs = () => {
   return (
     <>
       <Header />
-      <h1 className="text-3xl">Inner Clubs</h1>;
+      <h1 className="text-3xl">Inner Clubs</h1>
     </>
   );
 };

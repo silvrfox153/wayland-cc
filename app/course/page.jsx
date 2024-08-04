@@ -4,7 +4,7 @@ const Course = () => {
   return (
     <>
       <Header />
-      <h1 className="text-3xl">The Course</h1>;
+      <h1 className="text-3xl">The Course</h1>
     </>
   );
 };
