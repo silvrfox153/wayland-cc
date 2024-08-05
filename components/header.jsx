@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import Logo from '../assets/wayland-cc-logo.png';
+import Logo from '@/assets/images/wayland-cc-logo.png';
 import Link from 'next/link';
 
 import { useState } from 'react';

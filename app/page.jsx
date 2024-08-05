@@ -1,8 +1,8 @@
-import Header from './components/header';
-import TeeTimesButton from './components/button';
-import Footer from './components/footer';
+import Header from '../components/header';
+import TeeTimesButton from '../components/button';
+import Footer from '../components/footer';
 import Image from 'next/image';
-import HeroImage from './assets/wayland-hero-image.jpeg';
+import HeroImage from '@/assets/images/wayland-hero-image.jpeg';
 
 const HomePage = () => {
   return (
@@ -14,9 +14,6 @@ const HomePage = () => {
           src={HeroImage}
           className="h-100 w-auto"
           priority
-          style={{
-            objectFit: 'cover',
-          }}
         />
         <h1 className="text-3xl text-center">18 Holes - Public Welcome</h1>
         <TeeTimesButton />
